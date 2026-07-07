@@ -1,1 +1,60 @@
-<p>Hello world</p>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <a class="brand" href="#">Demo</a>
+            <a class="button" href="#counter">Try counter</a>
+        </nav>
+        <section class="hero-copy">
+            <p class="eyebrow">First Git project</p>
+            <h1>Hello world, but polished.</h1>
+            <p>
+                A tiny frontend project for learning how HTML, CSS, JavaScript,
+                and GitHub work together.
+            </p>
+        </section>
+    </header>
+
+    <main>
+        <section class="cards">
+            <article>
+                <h2>HTML</h2>
+                <p>Structure the content with semantic tags.</p>
+            </article>
+            <article>
+                <h2>CSS</h2>
+                <p>Style the page with spacing, color, and responsive layout.</p>
+            </article>
+            <article>
+                <h2>JavaScript</h2>
+                <p>Add small interactions that make the page dynamic.</p>
+            </article>
+        </section>
+
+        <section class="counter" id="counter">
+            <div>
+                <p class="eyebrow">Interaction</p>
+                <h2>Practice with a counter</h2>
+                <p>Click the buttons and inspect how script.js updates the page.</p>
+            </div>
+            <div class="counter-box">
+                <strong data-count>0</strong>
+                <div class="counter-actions">
+                    <button type="button" data-action="decrease">Decrease</button>
+                    <button type="button" data-action="reset">Reset</button>
+                    <button type="button" data-action="increase">Increase</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
